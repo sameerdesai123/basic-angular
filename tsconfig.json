@@ -16,7 +16,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@basic-angular/material": ["libs/material/src/index.ts"]
+      "@basic-angular/material": ["libs/material/src/index.ts"],
+      "@basic-angular/core-data": ["libs/core-data/src/index.ts"],
+      "@basic-angular/ui-login": ["libs/ui-login/src/index.ts"],
+      "@basic-angular/ui-toolbar": ["libs/ui-toolbar/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
